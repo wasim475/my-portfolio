@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import wasim from "../../assets/wasimHossain.jpg"
+import wasim from "../../assets/myPic/wh1.png"
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from 'react-icons/fa';
@@ -29,16 +29,15 @@ const AboutMe = () => {
     return (
         <>
         <section className="container mx-auto bg-gray-800 text-white">
-            <div className="flex">
-                <section className="w-1/4 relative border-4 border-orange-400">
-                    <img className="-mt-3 -ml-3" src={wasim}/>
-                    <div className="absolute left-10 bottom-4">
-                        <p>I'm Available on:</p>
-                        <p className="flex gap-x-2">
-                            <Link to="https://www.facebook.com/wh715/" className="p-1 border-2 border-orange-500 rounded-full "><FaFacebook/></Link>
-                            <Link to="https://www.facebook.com/wh715/" className="p-1 border-2 border-orange-500 rounded-full "><FaWhatsapp/></Link>
-                        </p>
-                    </div>
+        <div className="text-center">
+        <h1 className="text-5xl uppercase font-bold py-5">About Me</h1>
+            <h1 className="mb-10">
+                <Link className="text-orange-400">Home</Link> / About
+            </h1>
+        </div>
+            <div className="md:flex">
+                <section className="w-1/4 relative text-center">
+                    <img className="border-4 border-orange-400 rounded-full" src={wasim}/>
                 </section>
                 <section className="w-3/4 md:ml-20 lg:ml-40">
                     <div className="overflow-x-auto">
@@ -75,9 +74,9 @@ const AboutMe = () => {
 
 
 
-            <div className="md:mt-40">
-                    <section>
-                        <h1 className="text-3xl">FUN FACTS</h1>
+            <div className="md:mt-40 border-y py-20">
+                    <section className="text-center mb-5">
+                        <h1 className="text-3xl font-bold text-yellow-300">FUN FACTS</h1>
                     </section>
 
                     <section>
@@ -102,9 +101,9 @@ const AboutMe = () => {
                     </section>
             </div>
 
-            <div className="mt-20">
-                <section>
-                    <h1 className="text-3xl font-bold">Education</h1>
+            <div className="mt-20 border-b py-10">
+                <section >
+                    <h1 className="text-3xl font-bold uppercase text-center text-yellow-300">Education</h1>
                 </section>
                 <section className="mt-10">
                     <div>
@@ -178,9 +177,9 @@ const AboutMe = () => {
             </div>
 
             <div>
-            <section className=" py-12">
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8">Skills</h2>
+            <section className=" py-12 border-b-2">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-8 uppercase text-yellow-300">Skills</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {skills.map((skill, index) => (
             <div key={index} className="bg-white flex items-center gap-x-2 justify-center text-gray-500 p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-200">

@@ -5,7 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 import { IoPerson } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Link, NavLink } from 'react-router-dom';
-import wasimImg from "../../assets/wasimh.png"
+import wasimImg from "../../assets/myPic/wh3.png"
 
 
 
