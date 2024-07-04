@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const projects = [
   {
@@ -12,7 +13,7 @@ const projects = [
     technologies: ['React', 'Firebase', 'Tailwind CSS', 'Express.js'],
     liveLink: 'https://grand-jelly-06773e.netlify.app/',
     clientRepo: 'https://github.com/wasim475/forest-canvas',
-    serverRepo: 'https://github.com/username/forest-canvas-server',
+    serverRepo: 'https://github.com/wasim475/forest-canvas-server',
   },
   {
     name: 'Taste Trove',
@@ -25,7 +26,7 @@ const projects = [
     technologies: ['React', 'Firebase', 'Tailwind CSS', 'Express.js'],
     liveLink: 'https://sunny-trifle-93dcec.netlify.app/',
     clientRepo: 'https://github.com/wasim475/taste-trove',
-    serverRepo: 'https://github.com/username/taste-trove-server',
+    serverRepo: 'https://github.com/wasim475/taste-trove-server',
   },
   {
     name: 'VisitBDLand',
@@ -38,15 +39,19 @@ const projects = [
     technologies: ['React', 'Firebase', 'Tailwind CSS', 'Express.js', 'MongoDB'],
     liveLink: 'https://clinquant-toffee-67a43e.netlify.app/',
     clientRepo: 'https://github.com/wasim475/visit-bd-land',
-    serverRepo: 'https://github.com/username/visitbdland-server',
+    serverRepo: 'https://github.com/wasim475/visit-bd-land-server',
   },
 ];
 
 const Projects = () => {
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-gray-800 py-12">
+        <div className='text-center mb-10'>
+            <h2 className="text-5xl uppercase text-white font-bold">Projects</h2>
+            <p className='text-white mt-4'><Link className='text-orange-300' to="/">Home</Link> / Projects</p>
+        </div>
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8">Projects</h2>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded shadow-md hover:shadow-lg transition-shadow duration-200">

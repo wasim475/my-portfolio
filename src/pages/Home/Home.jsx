@@ -28,7 +28,7 @@ export const Home = () => {
            
             <div className='md:flex'>
                 <section className='md:w-1/3 flex justify-center items-center'>
-                    <img src={wasimImg}/>
+                    <img className='w-60' src={wasimImg}/>
                 </section>
                 <section className='md:w-2/3 mt-3 md:mt-0'>
                     <h1>HI THERE!</h1>
