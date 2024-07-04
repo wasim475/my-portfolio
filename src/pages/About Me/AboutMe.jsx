@@ -36,8 +36,8 @@ const AboutMe = () => {
                 </h1>
             </div>
             <div className="md:flex justify-center items-center">
-                <section className="w-1/4 relative text-center">
-                    <img className="border-4 border-orange-400 rounded-full" src={wasim}/>
+                <section className="md:w-1/4 relative flex justify-center">
+                    <img className="border-4 w-72 mb-5 md:w-64 border-orange-400 rounded-full" src={wasim}/>
                 </section>
                 <section className="w-3/4 md:ml-20 lg:ml-40">
                     <div className="overflow-x-auto">

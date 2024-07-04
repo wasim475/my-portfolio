@@ -63,7 +63,7 @@ const Contact = () => {
         <h2 className="text-3xl font-bold mb-8">Contact</h2>
         <div className="flex justify-center items-center mb-8">
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://linkedin.com/in/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 mx-2"
@@ -79,7 +79,7 @@ const Contact = () => {
             <FaFacebook size={32} />
           </a>
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/wasim475"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 mx-2"
