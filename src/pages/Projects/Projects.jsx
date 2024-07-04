@@ -47,7 +47,7 @@ const Projects = () => {
   return (
     <section className="bg-gray-800 py-12">
         <div className='text-center mb-10'>
-            <h2 className="text-5xl uppercase text-white font-bold">Projects</h2>
+            <h2 className="md:text-5xl text-3xl uppercase text-white font-bold">Projects</h2>
             <p className='text-white mt-4'><Link className='text-orange-300' to="/">Home</Link> / Projects</p>
         </div>
       <div className="container mx-auto text-center">

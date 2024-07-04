@@ -30,7 +30,7 @@ const AboutMe = () => {
         <>
         <section className="container mx-auto bg-gray-800 text-white">
             <div className="text-center">
-                <h1 className="text-5xl uppercase font-bold py-5">About Me</h1>
+                <h1 className="md:text-5xl text-3xl uppercase font-bold py-5">About Me</h1>
                 <h1 className="mb-10">
                     <Link className="text-orange-400">Home</Link> / About
                 </h1>
