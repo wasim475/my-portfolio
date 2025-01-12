@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    name: 'Forest Canvas',
-    description: 'Forest Canvas is a platform where users can create accounts, buy and sell their crafts. The website is fully responsive and offers a seamless user experience.',
+    name: 'Criccast',
+    description: 'Criccast is a dynamic platform that allows users to calculate and track match scores, including batter and bowler stats, extra runs, and more. Users can also share match links with others for a collaborative experience.',
     features: [
-      'User authentication and account management',
-      'Marketplace for buying and selling crafts',
-      'Responsive design for all devices',
+      'Score Tracking: Keep track of match scores in real-time.',
+      'Batter and bowler Stats: Calculate individual runs and performance for each batter and bowler.',
+      'Extra Runs Tracking: Record and calculate extras like wides, no-balls, and byes.',
     ],
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'Express.js'],
-    liveLink: 'https://grand-jelly-06773e.netlify.app/',
-    clientRepo: 'https://github.com/wasim475/forest-canvas',
-    serverRepo: 'https://github.com/wasim475/forest-canvas-server',
+    technologies: ['React','Tailwind CSS','Javascript', 'Firebase(google authentication only)','nodejs', 'mongodb', 'Express.js'],
+    liveLink: 'https://criccast.netlify.app/',
+    clientRepo: 'https://github.com/wasim475/cric-cast-client',
+    serverRepo: 'https://github.com/wasim475/cric-cast-server',
   },
   {
     name: 'Taste Trove',
